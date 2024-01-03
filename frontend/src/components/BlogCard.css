@@ -1,0 +1,15 @@
+.card{
+    width: 800px;
+    margin-bottom: 16px;
+    background-color: #f8f8f8;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.card span {
+    font-size: 18px;
+    margin-right: 6px;
+}

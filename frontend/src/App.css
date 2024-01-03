@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+}
+
+.mainWindow {
+  flex: 1;
+  margin-left: 75px;
+}
+
+.leftBar {
+  position: fixed;
+  top: 0;
+  width: 75px;
+  background-color: #fafafa;
+  height: 100vh;
+  z-index: 10;
+  box-shadow: 0 0 7px 1px rgba(49, 49, 49, 0.5);
+}
+
+.rightBar {
+  position: sticky;
+  top: 0;
+  border-left: 0.5px solid rgb(175, 175, 175);
+  color: white;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.unConnectWallet {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.unConnectWallet p {
+  margin: 0;
+  color: #dc3545;
+}
+
+.unConnectWallet h1 {
+  color: #1470b8;
+}
+
+.unConnectWallet img{
+  width: 15%;
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: 'Inter', sans-serif;
+}

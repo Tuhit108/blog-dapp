@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    z-index: 5;
+    position: sticky;
+    background-color: #f4f4f4;
+    top: 0;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 70em) {
+    .blog-container{
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+@media only screen and (max-width: 50em) {
+    .blog-container{
+        grid-template-columns: 1fr;
+    }
+  }

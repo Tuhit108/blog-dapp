@@ -1,0 +1,181 @@
+.singleBlog {
+	margin-top: 10px;
+}
+
+.singleBlogWrapper {
+	padding: 20px;
+	padding-right: 0;
+	display: flex;
+}
+
+.singleBlogImg {
+	padding: auto;
+	margin-right: 10px;
+}
+
+.singleBlogTitle {
+	text-align: center;
+	margin: 10px;
+	font-size: 28px;
+	font-family: "Lora", sans-serif;
+}
+
+.singleBlogText {
+	color: #666;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.singleBlogText::first-letter {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+.blogDetail {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.blogDetail h3 {
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+.blogDetail h4 {
+	font-size: 18px;
+	margin-left: 100px;
+	text-align: left;
+}
+
+.blogDetail label {
+	font-size: 16px;
+	margin-left: 100px;
+	text-align: left;
+}
+
+.blogDetail select {
+	margin-left: 10px;
+	position: relative;
+	margin-right: 50px;
+}
+
+.blogDetail__top img {
+	width: 200px;
+	object-fit: contain;
+}
+
+.blogDetail__topDec {
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 265px;
+	flex: 0.7;
+	display: grid;
+	height: fit-content;
+}
+
+.blogDetail__topDec {
+	color: #483f3f;
+}
+.singleBlog {
+	flex: 9;
+	margin-top: 10px;
+  }
+  
+  .singleBlogWrapper {
+	padding: 20px 100px;
+	display: flex;
+  }
+  
+  .singleBlogImg {
+	padding: auto;
+	margin-right: 10px;
+  }
+  
+  .singleBlogTitle {
+	text-align: center;
+	margin: 10px;
+	font-size: 28px;
+	font-family: "Lora", sans-serif;
+  }
+  
+.singleBlogText {
+	color: #666;
+	font-size: 18px;
+	line-height: 25px;
+  }
+  
+  .singleBlogText::first-letter {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 600;
+  }
+
+.blogDetail__topDec p {
+	font-size: 20px;
+	margin: -20px 0 0px;
+}
+
+.sourceLink {
+	text-decoration: none;
+	color: #483f3f;
+	border: 1px solid gray;
+	padding: 5px 15px;
+	width: fit-content;
+	margin-top: 30px;
+	margin-left: 100px;
+	text-align: left;
+}
+
+.blogDetail__topDec h2 {
+	font-size: 32px;
+}
+
+.blogDetail__bottomDec {
+	margin: 0px 100px;
+	text-align: center;
+}
+
+.blogDetail__bottomDec ul li {
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.blogDetail__authors {
+	color: #483f3f;
+}
+
+.blogDetail__bottomDec h4 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	margin-right: 100px;
+	text-align: center;
+}
+
+.blogDetail__bottomDec>p {
+	color: #483f3f;
+	line-height: 25px;
+}
+
+@media (min-width: 500px) {
+	.blogDetail__top {
+		display: flex;
+		max-height: 300px;
+	}
+
+	.blogDetail img {
+		margin-right: 10px;
+		flex: 0.5;
+	}
+}
+
+
+
+  /* css switch */
+  .sw {
+	margin-top: -45px;
+	margin-left: 170px;
+  }

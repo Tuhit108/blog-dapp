@@ -1,0 +1,43 @@
+.leftBarContent {
+  /* box-sizing: border-box; */
+  padding: 12.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  height: 100%;
+}
+
+/* .leftBarLogo {
+  color: teal;
+  font-size: small;
+  font-weight: bold;
+} */
+.menu{
+  width: 100%;
+}
+
+.menuItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 0.9rem;
+  border-radius: 0.25rem;
+  color: #1470b8;
+  /* background-color: #f7f7f7; */
+}
+
+.menuItems:hover {
+  cursor: pointer;
+}
+
+.menuItems:active {
+  color: #7eb2ff;
+}
+
+p {
+  color: black;
+}
